@@ -1,2 +1,1 @@
-Feature 1 development work.
-Continued work on Feature 1.
+Content for the first change
