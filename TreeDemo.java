@@ -92,17 +92,21 @@ class Node{
 				System.out.print(root.value + " ");
 			}
 		}
-	   
-	   
-	   
-	   /*
-	   a method to find the node in the tree
-	   with a specific value
-	   */
-	   public boolean find(Node root, int key){
-		 //implement in here
-		  
-	   }
+
+
+
+		/**
+		 * Finds a node with a given key in the binary search tree.
+		 * @param root the root node of the tree
+		 * @param key the value to find in the tree
+		 * @return the node with the given key or null if not found
+		 */
+		public Node find(Node root, int key) {
+			while (root != null && root.value != key) {
+				root = key < root.value ? root.left : root.right;
+			}
+			return root;
+		}
 	   
 	   
 	   
