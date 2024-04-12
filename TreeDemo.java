@@ -63,7 +63,6 @@ class BinarySearchTree {
 		}
 	}
 
-
 	/**
 	 * Performs an in-order traversal of the binary search tree.
 	 *
@@ -77,8 +76,7 @@ class BinarySearchTree {
 		}
 	}
 
-
-
+	
 	/**
 	 * Performs a post-order traversal of the binary search tree.
 	 *
@@ -91,8 +89,6 @@ class BinarySearchTree {
 			System.out.print(root.value + " ");
 		}
 	}
-
-
 
 	/**
 	 * Finds a node with a given key in the binary search tree.
@@ -107,8 +103,6 @@ class BinarySearchTree {
 		}
 		return root;
 	}
-
-
 
 	/**
 	 * Retrieves the minimum value node in the binary search tree.
@@ -126,8 +120,6 @@ class BinarySearchTree {
 		return root;
 	}
 
-
-
 	/**
 	 * Retrieves the maximum value node in the binary search tree.
 	 *
@@ -144,7 +136,6 @@ class BinarySearchTree {
 		return root;
 	}
 
-	
 	/*
     this method will not compile until getMax
     is implemented
