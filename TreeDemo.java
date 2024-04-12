@@ -109,7 +109,7 @@ class BinarySearchTree {
 	}
 
 
-	
+
 	/**
 	 * Retrieves the minimum value node in the binary search tree.
 	 *
@@ -125,6 +125,8 @@ class BinarySearchTree {
 		}
 		return root;
 	}
+
+	
 
 	/**
 	 * Retrieves the maximum value node in the binary search tree.
