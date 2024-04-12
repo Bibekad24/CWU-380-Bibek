@@ -126,7 +126,7 @@ class BinarySearchTree {
 		return root;
 	}
 
-	
+
 
 	/**
 	 * Retrieves the maximum value node in the binary search tree.
@@ -144,6 +144,7 @@ class BinarySearchTree {
 		return root;
 	}
 
+	
 	/*
     this method will not compile until getMax
     is implemented
