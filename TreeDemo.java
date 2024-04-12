@@ -92,7 +92,7 @@ class BinarySearchTree {
 		}
 	}
 
-	
+
 	/**
 	 * Finds a node with a given key in the binary search tree.
 	 *
@@ -107,6 +107,7 @@ class BinarySearchTree {
 		return root;
 	}
 
+	
 	/**
 	 * Retrieves the minimum value node in the binary search tree.
 	 *
