@@ -67,12 +67,17 @@ class Node{
 
 
 
-	   /*
-	   in-order traversal
-	   */
-	   public void inOrderTraversal(Node root){
-	      //implement in here
-	   }
+		/**
+		 * Performs an in-order traversal of the binary search tree.
+		 * @param root the root node of the tree
+		 */
+		public void inOrderTraversal(Node root) {
+			if (root != null) {
+				inOrderTraversal(root.left);
+				System.out.print(root.value + " ");
+				inOrderTraversal(root.right);
+			}
+		}
 	   
 	   
 	   
